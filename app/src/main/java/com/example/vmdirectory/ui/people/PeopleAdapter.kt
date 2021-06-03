@@ -52,7 +52,7 @@ class PeopleViewHolder(
     @SuppressLint("SetTextI18n")
     fun bind(item: People) {
         this.people = item
-        itemBinding.firstname.text = """${item.firstName} - ${item.lastName}"""
+        itemBinding.firstname.text = """${item.firstName}  ${item.lastName}"""
         itemBinding.emailId.text = """${item.email}"""
         itemBinding.jobDesc.text = """${item.jobTitle}"""
         Glide.with(itemBinding.root)
