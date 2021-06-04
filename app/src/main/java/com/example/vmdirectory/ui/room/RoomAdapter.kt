@@ -46,7 +46,7 @@ class RoomViewHolder(private val itemBinding: ItemRoomBinding, private val liste
     fun bind(item: Room) {
         this.room = item
         itemBinding.name.text = item.name
-        itemBinding.maxOccupancy.text = """ - ${item.max_occupancy}"""
+        itemBinding.maxOccupancy.text = """ ${item.max_occupancy}"""
         if(item.is_occupied) {
             itemBinding.roomImg.setImageResource(R.drawable.ic_baseline_no_meeting_room_24)
         }
