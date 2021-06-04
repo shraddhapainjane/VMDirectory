@@ -10,4 +10,8 @@
 
     <string name="menu_people">People Details</string>
     <string name="menu_room">Room Details</string>
+    
+    <string name="headerText1">Room Availability</string>
+    <string name="headerText2">Name</string>
+    <string name="headerText3">Max Occupancy</string>
 </resources>
